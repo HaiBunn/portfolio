@@ -26,17 +26,29 @@ nav {
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) {
-    
+    /* 左寄せ */
     ul{
       padding-left: 0;
     }
 
     li {
-      color: #ffffff;
-      background-color: #7f00ff;
+      color: #000000;
+      background-color:#ffffff ;
       margin:1em;
       padding:1em;
     }
+}
+img {
+  width: 30%;
+  height: auto;
+}
+iframe {
+  width: 70%;
+  height: 70%;
+}
+video {
+  width: 100%;
+  height : auto;
 }
 
 
